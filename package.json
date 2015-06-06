@@ -1,0 +1,22 @@
+{
+  "name": "tiaolvwang",
+  "Version": "0.0.1",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.0",
+  "description": "An intermediary to help consumers find good piano tuners.",
+  "main": "server.js",
+  "devDependencies": {},
+  "keywords": [
+    "piano",
+    "tuning"
+  ],
+  "author": "Minhui Du",
+  "license": "MIT",
+  "dependencies": {
+    "jade": "^1.9.2",
+    "express": "^4.12.4",
+    "mongodb": "^2.0.33"
+  }
+}
