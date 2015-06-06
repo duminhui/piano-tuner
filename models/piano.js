@@ -1,11 +1,11 @@
 var mongoose = require('mongoose');
 
 var PianoSchema = new mongoose.Schema({
-    owner: ObjectId,
-    last_name: String,
+    customer_id: ObjectId,
+    brand: String,
+    company_notes: String,
+    size: String,
     image: String,
-    phone_number: String,
-    address: String
 }
 
 var Costomer = mongoose.model('Costomer', CostomerSchema);
