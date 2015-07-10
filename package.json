@@ -1,5 +1,5 @@
 {
-  "name": "tiaolvwang",
+  "name": "piano-tuner",
   "Version": "0.0.1",
   "scripts": {
     "start": "node server.js"
@@ -15,8 +15,9 @@
   "author": "Minhui Du",
   "license": "MIT",
   "dependencies": {
-    "jade": "^1.9.2",
     "express": "^4.12.4",
+    "jade": "^1.10.0",
+    "mongoose": "^4.0.5",
     "mongodb": "^2.0.33"
   }
 }

@@ -18,7 +18,8 @@ var TunerSchema = new mongoose.Schema({
     email_address: String,
     years_of_entire_work: Number,
     years_of_continuous_work: Number,
-    averange_orders_per_month: Number
+    averange_orders_per_month: Number,
+    other_profile: String
 });
 
 var Tuner = mongoose.model('Tuner', TunerSchema);
